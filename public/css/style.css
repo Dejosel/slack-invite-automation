@@ -7,8 +7,11 @@ html,body{
 margin:0;
 padding:0;
 font-family: 'Open Sans', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
-background-size: cover;
+background: #ed561a;
+background: -moz-radial-gradient(circle farthest-side at right bottom, #E7B02F 5%, #e98c26 25%, #eb681e 80%, #ed561a 100%);
+background: -webkit-radial-gradient(circle farthest-side at right bottom, #E7B02F 5%,#e98c26 25%,#eb681e 80%,#ed561a 100%);
+background: radial-gradient(circle farthest-side at right bottom, #E7B02F 5%,#e98c26 25%,#eb681e 80%,#ed561a 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E7B02F', endColorstr='#ed561a',GradientType=1 );
 height: 100%;
 width: 100%;
 }
